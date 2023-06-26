@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ANFAJUL</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script defer src="quiz.js"></script>
+</head>
+<body class="incio">
+    <header>
+        <img class="logo" src="LOGO.png" alt="">
+    </header>
+    <h2>Quiz ANFAJUL</h2>
+    
+    <div class="div">
+        <h1><input type="text" placeholder="pergunta" class="input"id="pergunta"></h1>
+        <input type="text" placeholder="imagem" class="input" id="img"  onkeyup="carregarImg()">
+        <input type="text" placeholder="resposta" class="input" id="resposta">
+        <input type="text" placeholder="resposta1"class="input" id="resposta1">
+        <input type="text" placeholder="resposta2"class="input" id="resposta2">
+        <input type="text" placeholder="resposta3" class="input"id="resposta3">
+        <select id="correta">
+            <option value="rp">Resposta </option>
+            <option value="rp1">Resposta1 </option>
+            <option value="rp2">Resposta2 </option>
+            <option value="rp3">Resposta3 </option>
+        </select>
+        <button onclick="cadastrar()">Cadastrar</button>
+        <button onclick="limpar()">Limpar</button>
+        <div class="excluido" id="resultado"></div>
+    </div>
+</body>
+</html>

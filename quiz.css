@@ -1,0 +1,198 @@
+body {
+    background: rgb(37, 9, 83);
+    background: linear-gradient(90deg, rgba(37, 9, 83, 1) 0%, rgba(227, 48, 178, 1) 100%);
+    
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(189, 9, 153, 0.175);
+    text-align: left;
+    max-width: 800px;
+    
+    margin: 0 auto;
+    box-shadow: 2px 2px 3px;
+    padding: 15px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px rgb(201, 22, 198);
+}
+
+.input {
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgb(169, 29, 194);
+}
+
+button {
+    width: 100px;
+    margin: 6px;
+}
+
+.esquerda {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.esquerda:hover {
+    background-color: rgba(227, 224, 224, 0.647);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.direita {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.direita:hover {
+    background-color: rgba(227, 224, 224, 0.647);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+h1{
+    text-align: left;
+    color: white;
+}
+img{
+    width: 200px;
+}
+
+.incio{
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+.iniciar{
+   text-align: center;
+   margin-bottom: 2%;
+}
+.filme{
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+.btn {
+    font-size: 1.2rem;
+    padding:10px ;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(34, 3, 34);
+    color: rgb(234, 234, 234);
+    font-weight: 800;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #7f2ca0;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    background: rgb(118, 2, 116);
+    background: linear-gradient(270deg, rgba(111, 3, 95, 0.681) 0%, rgba(189, 7, 195, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+.frase{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    box-shadow: none;
+}
+.excluido{
+    width: 100%;
+}
+.pontos-final{
+    width: 40px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    font-family: fantasy;
+}
+.excluidos{
+    width: 35px;
+}
+
+.h1-final{
+    color: white;
+    font-size: 35px;
+
+}
+
+.body-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pontos{
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.div-final{
+    display: flex;
+}
+.pontuacao{
+    width: 400px;
+}
+
+.rotate {
+    animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+    }
+}
+.logo{ 
+    width: 60px;   
+}
+header{
+    text-align: left;
+}
+.table{
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    margin: 0 auto;
+    width: 700px;
+    
+}
+.btn2{
+    text-align: center;
+}
